@@ -1,10 +1,92 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>submit.html</title>
-</head>
-
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Gabriella Ramirez">
+		<title>Fasting</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+		<style>
+			body {text-align: center;
+			background-color:#90CC82
+			}
+			
+			h1{
+				font-family: "Rubik Mono One", monospace;
+  				font-weight: 400;
+  				font-style: normal;
+				background-color:#15C413;
+				color:antiquewhite;
+				border-style:double;
+				border-color:antiquewhite;
+				border-width:20px;
+				padding:10px;
+			}
+			h3{
+				color:#1C3522;
+				background-color:#DCDF9F;
+				border-style: inset;
+				border-radius: 12px;
+ 				padding: 5px;
+				
+				
+			}
+				
+			img {
+  				display: block;
+  				margin-left: auto;
+  				margin-right: auto;
+				}
+			
+				
+		</style>
+	</head>
+	
 <body>
+	<h1>Fill Out This Quick Survey and Submit for More Info!</h1>
+	<form action="">
+		<h3> Which Fasting method are you most interested in?</h3>
+		
+			<input type="radio" id="sixteen eight" Name="fasting" value="sixteen eight"> <label for="sixteen eight">16:8</label>
+			
+			<input type="radio" id="eighteen six" name="fasting" value="eighteen six"><label for="eighteen six">18:6</label>
+			
+			<input type="radio" id="warrior" name="fasting" value="warrior"><label for="warrior ">warrior</label>
+			
+			<input type="radio" id="Alternate" name="fasting" value="Alternate"><label for="Alternate ">Alternate </label>
+		<br>
+		<br>
+		<h3>Select what you would lile more information on</h3>
+			  <input type="checkbox" id="concerns" name="info" value="concerns">
+  			<label for="concerns"> Concerns during fasting</label><br>
+		
+ 			 <input type="checkbox" id="meal" name="info" value="meal">
+ 			 <label for="meal"> Meal prep plans  </label><br>
+		
+ 			 <input type="checkbox" id="Workout" name="info" value="workout">
+  			<label for="workout"> Workout plans to follow</label>
+		<br>
+		<br>
+		<h3>Enter Your Information below</h3>
+		
+		     <label for="fname">First name:</label>
+		       <br>
+             <input type="text" id="fname" name="fname">
+		       <br>
+ 			 <label for="lname">Last name:</label>
+			   <br>
+  			<input type="text" id="lname" name="lname">
+			   <br>
+			<label for="age">Age:</label>
+			   <br>
+		 	<input type="text" id="age" name="age">
+		    <br>
+			<br>
+		    <input type="submit" value="submit">
+		
+		
+		
+	</form>
 </body>
 </html>
